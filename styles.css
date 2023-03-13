@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+@font-face{
+  font-family: 'JetBrainsMono';
+  src: url('JetBrainsMono-Medium.woff2') format('woff2'),
+    url('JetBrainsMono-Medium.woff2') format('woff'),
+    url('JetBrainsMono-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content{
+}
+
+/* Media query for viewport width less than 600px */
+@media screen and (max-width: 700px) {
+	.content {
+		margin-left: 12vh;
+		margin-right: 12vh;
+		margin-top: 10vh;
+	}
+	#heading1{
+		font-size: 20px;
+	}
+}
+
+/* Media query for viewport width between 600px and 1200px */
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+	.content {
+		margin-left: 20vh;
+		margin-right: 20vh;
+		margin-top: 10vh;
+	}
+}
+
+/* Media query for viewport width greater than 1200px */
+@media screen and (min-width: 1100px) {
+	.content {
+		margin-left: 45vh;
+		margin-right: 45vh;
+		margin-top: 10vh;
+	}
+}
+
+body{
+	font-family: 'JetBrainsMono';
+	color: #62535A;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
+	margin: 0;
+}
+
+#main{
+}
+
+.buttonContainer{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#one{
+	margin-bottom: 15vh;
+	width: 100%
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18vh;
+}
+
+#heading1{
+	font-family: 'Gluten';
+	font-size: 50px;
+	color: #62535A;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	#heading1{
+		font-size: 40px;
+	}
+}
+
+p{
+	font-size: 3vh;
+	text-align: left;
+}
+
+#two{
+	margin-bottom: 15vh;
+}
+
+#heading2{
+	font-family: 'Gluten';
+	font-size: 50px;
+	color: #62535A;
+	text-align: left;
+}
+
+ul{
+	align-content: right;
+}
+
+#button{
+	box-sizing: border-box;
+	font-family: 'JetBrainsMono';
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 10px;
+	font-size: 18px;
+	letter-spacing: 0.05em;
+	background: #FF8C4D;
+	border-width: 5px 12px 12px 5px;
+	border-style: solid;
+	border-color: #1A0000;
+	border-radius: 23px;
+	color: black;
+ 	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+#button:hover {
+	background-color: #43AFFD; /* change the background color on hover */
+	color: black; /* change the text color on hover */
+}
+
+/*
+	<ul>
+	  <li>Github</li>
+	  <li>LinkedIn</li>
+	  <li>Email</li>
+	</ul>
+*/
+
+/*
+	<br/><br/><br/><br/><br/>
+	<section id="two">
+
+		<header>
+			<h2 id="header">
+				Experience
+			</h2>
+		</header>
+	</section>
+*/

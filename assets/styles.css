@@ -45,6 +45,7 @@
 body{
 	font-family: 'JetBrainsMono';
 	color: #62535A;
+	font-size: 3vh;
 	align-items: center;
 	justify-content: center;
 	overflow: visible;
@@ -85,7 +86,6 @@ img{
 }
 
 p{
-	font-size: 3vh;
 	text-align: left;
 }
 

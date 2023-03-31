@@ -1,5 +1,5 @@
+/*FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
-
 @font-face{
   font-family: 'JetBrainsMono';
   src: url('fonts/JetBrainsMono-Medium.woff2') format('woff2'),
@@ -9,21 +9,18 @@
   font-style: normal;
 }
 
+
+/*VIEWPORT*/
 .content{
 }
-
 /* Media query for viewport width less than 600px */
 @media screen and (max-width: 700px) {
 	.content {
-		margin-left: 12vh;
-		margin-right: 12vh;
+		margin-left: 4vh;
+		margin-right: 4vh;
 		margin-top: 10vh;
 	}
-	#heading1{
-		font-size: 20px;
-	}
 }
-
 /* Media query for viewport width between 600px and 1200px */
 @media screen and (min-width: 700px) and (max-width: 1100px) {
 	.content {
@@ -32,7 +29,6 @@
 		margin-top: 10vh;
 	}
 }
-
 /* Media query for viewport width greater than 1200px */
 @media screen and (min-width: 1100px) {
 	.content {
@@ -42,6 +38,8 @@
 	}
 }
 
+
+/*BODY & MAIN*/
 body{
 	font-family: 'JetBrainsMono';
 	color: #62535A;
@@ -51,59 +49,26 @@ body{
 	overflow: visible;
 	margin: 0;
 }
+@media screen and (max-width: 700px) {
+	body{
+		font-size: 1.5vh;;
 
+	}
+}
 #main{
+	line-height: 35px;
 }
 
+
+
+/*BUTTONS*/
 .buttonContainer{
 	display: flex;
 	justify-content: flex-end;
 }
-
-#one{
-	margin-bottom: 15vh;
-	width: 100%
-}
-
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 18vh;
-}
-
-#heading1{
-	font-family: 'Gluten';
-	font-size: 50px;
-	color: #62535A;
-	text-align: center;
-}
-
-@media screen and (max-width: 700px) {
-	#heading1{
-		font-size: 40px;
-	}
-}
-
-p{
-	text-align: left;
-}
-
-#two{
-	margin-bottom: 15vh;
-}
-
-#heading2{
-	font-family: 'Gluten';
-	font-size: 50px;
-	color: #62535A;
-	text-align: left;
-}
-
 ul{
 	align-content: right;
 }
-
 #button{
 	box-sizing: border-box;
 	font-family: 'JetBrainsMono';
@@ -122,11 +87,67 @@ ul{
   	text-decoration: none;
   	display: inline-block;
 }
-
 #button:hover {
 	background-color: #43AFFD; /* change the background color on hover */
 	color: black; /* change the text color on hover */
 }
+
+
+/*CONTENT*/
+#section_one{
+	margin-bottom: 15vh;
+	width: 100%
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18vh;
+}
+@media screen and (max-width: 700px) {
+	img{
+		width: 14vh;
+	}
+}
+
+#heading1{
+	font-family: 'Gluten';
+	font-size: 50px;
+	color: #62535A;
+	text-align: center;
+}
+@media screen and (max-width: 700px) {
+	#heading1{
+		font-size: 25px;
+	}
+}
+
+p{
+	text-align: left;
+}
+
+#section_two{
+	margin-bottom: 15vh;
+}
+
+#heading2{
+	font-family: 'Gluten';
+	font-size: 50px;
+	color: #62535A;
+	text-align: left;
+}
+@media screen and (max-width: 700px) {
+	#heading2{
+		font-size: 30px;
+	}
+}
+
+
+
+
+
+
 
 /*
 	<ul>
